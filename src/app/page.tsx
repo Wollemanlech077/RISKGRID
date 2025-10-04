@@ -10,31 +10,34 @@ export default function Home() {
     >
       {/* Top Section */}
       <div className="flex flex-col items-end mt-16 px-16">
-        <h1 className="main-title text-6xl mb-6" style={{ color: '#CBD5E1' }}>
-          Step Beyond the Ordinary
-        </h1>
-        <div 
-          className="subtitle-tags rounded-full backdrop-blur-md border border-white/30 flex items-center text-base" 
-          style={{ 
-            color: '#CBD5E1',
-            paddingLeft: '1rem',
-            paddingRight: '1rem',
-            paddingTop: '0.65rem',
-            paddingBottom: '0.65rem',
-            background: 'rgba(255, 255, 255, 0.15)',
-            backdropFilter: 'blur(20px)',
-            WebkitBackdropFilter: 'blur(20px)',
-            boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.2)',
-            gap: '1.5rem'
-          }}
-        >
-          <span>Portal</span>
-          <span style={{ color: '#CBD5E1', fontSize: '1.2em' }}>•</span>
-          <span>Flow State</span>
-          <span style={{ color: '#CBD5E1', fontSize: '1.2em' }}>•</span>
-          <span>Limitless Canvas</span>
-          <span style={{ color: '#CBD5E1', fontSize: '1.2em' }}>•</span>
-          <span>Cloud collaboration</span>
+        <div style={{ display: 'inline-flex', flexDirection: 'column', marginRight: '4rem' }}>
+          <h1 className="text-6xl mb-6" style={{ color: '#CBD5E1', fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, sans-serif', fontWeight: 300, letterSpacing: '-0.02em', textAlign: 'left', width: '100%' }}>
+            Step Beyond the Ordinary
+          </h1>
+          <div 
+            className="rounded-full backdrop-blur-md border border-white/30 flex items-center text-base" 
+            style={{ 
+              color: '#CBD5E1',
+              paddingLeft: '2rem',
+              paddingRight: '2rem',
+              paddingTop: '0.65rem',
+              paddingBottom: '0.65rem',
+              background: 'rgba(255, 255, 255, 0.15)',
+              backdropFilter: 'blur(20px)',
+              WebkitBackdropFilter: 'blur(20px)',
+              boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.2)',
+              gap: '1.5rem',
+              whiteSpace: 'nowrap'
+            }}
+          >
+            <span onClick={() => window.open('/lookup', '_blank')} style={{ cursor: 'pointer' }}>Lookup</span>
+            <span style={{ color: '#CBD5E1', fontSize: '1.2em' }}>•</span>
+            <span onClick={() => window.open('/team', '_blank')} style={{ cursor: 'pointer' }}>Team</span>
+            <span style={{ color: '#CBD5E1', fontSize: '1.2em' }}>•</span>
+            <span onClick={() => window.open('/api', '_blank')} style={{ cursor: 'pointer' }}>API</span>
+            <span style={{ color: '#CBD5E1', fontSize: '1.2em' }}>•</span>
+            <span onClick={() => window.open('/pricing', '_blank')} style={{ cursor: 'pointer' }}>Pricing</span>
+          </div>
         </div>
       </div>
 
