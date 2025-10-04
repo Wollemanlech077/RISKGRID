@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
+import FirebaseTest from '@/components/FirebaseTest'
 
 export default function MapPage() {
   const mapContainer = useRef<HTMLDivElement>(null)
@@ -78,6 +79,11 @@ export default function MapPage() {
             ← Back to main
           </button>
         </div>
+      </div>
+
+      {/* Firebase Test Component */}
+      <div className="absolute top-8 right-8 z-10">
+        <FirebaseTest />
       </div>
     </div>
   )
