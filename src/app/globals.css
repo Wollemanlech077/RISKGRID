@@ -79,5 +79,38 @@ html, body {
 }
 
 .subtitle-tags {
-  padding-right: 4rem; /* 👈 Misma separación que el botón */
+  margin-right: 4rem; /* 👈 Misma separación del borde derecho que el botón */
+}
+
+/* Glassmorphism card para el mapa */
+.glassmorphism-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Botón pequeño para el mapa */
+.portal-button-small {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.portal-button-small:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
 }

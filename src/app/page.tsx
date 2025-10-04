@@ -1,3 +1,5 @@
+'use client'
+
 export default function Home() {
   return (
     <div
@@ -11,7 +13,7 @@ export default function Home() {
         <h1 className="main-title text-6xl mb-6" style={{ color: '#CBD5E1' }}>
           Step Beyond the Ordinary
         </h1>
-        <div className="subtitle-tags flex items-center space-x-3 text-base" style={{ color: '#CBD5E1' }}>
+        <div className="subtitle-tags px-10 py-3 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center space-x-3 text-base" style={{ color: '#CBD5E1' }}>
           <span>Portal</span>
           <span style={{ color: '#94A3B8' }}>•</span>
           <span>Flow State</span>
@@ -28,10 +30,10 @@ export default function Home() {
           The single platform to iterate, evaluate, deploy, and monitor LLMs
         </p>
         
-        <button className="portal-button">
-          <span className="button-text">Explore the portal</span>
-          <span className="arrow-circle">→</span>
-        </button>
+              <button className="portal-button" onClick={() => window.open('/map', '_blank')}>
+                <span className="button-text">Explore the portal</span>
+                <span className="arrow-circle">→</span>
+              </button>
       </div>
     </div>
   )
