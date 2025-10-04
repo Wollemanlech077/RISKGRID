@@ -70,3 +70,14 @@ html, body {
   color: #C5D3E0; /* 👈 Azul cielo metálico */
   padding-left: 3rem; /* 👈 Separación del lado izquierdo */
 }
+
+.main-title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 300; /* 👈 Peso ligero igual que hero-title */
+  letter-spacing: -0.02em; /* 👈 Letter spacing igual */
+  padding-right: 4rem; /* 👈 Misma separación que el botón */
+}
+
+.subtitle-tags {
+  padding-right: 4rem; /* 👈 Misma separación que el botón */
+}

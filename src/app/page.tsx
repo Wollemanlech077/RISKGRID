@@ -7,15 +7,18 @@ export default function Home() {
       }}
     >
       {/* Top Section */}
-      <div className="flex flex-col items-center mt-16 px-8">
-        <h1 className="text-5xl font-bold mb-4" style={{ color: '#4ade80' }}>
+      <div className="flex flex-col items-end mt-16 px-16">
+        <h1 className="main-title text-6xl mb-6" style={{ color: '#CBD5E1' }}>
           Step Beyond the Ordinary
         </h1>
-        <div className="flex space-x-4 text-lg">
-          <span className="px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm" style={{ color: '#4ade80' }}>Portal</span>
-          <span className="px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm" style={{ color: '#4ade80' }}>Flow State</span>
-          <span className="px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm" style={{ color: '#4ade80' }}>Limitless Canvas</span>
-          <span className="px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm" style={{ color: '#4ade80' }}>Cloud collaboration</span>
+        <div className="subtitle-tags flex items-center space-x-3 text-base" style={{ color: '#CBD5E1' }}>
+          <span>Portal</span>
+          <span style={{ color: '#94A3B8' }}>•</span>
+          <span>Flow State</span>
+          <span style={{ color: '#94A3B8' }}>•</span>
+          <span>Limitless Canvas</span>
+          <span style={{ color: '#94A3B8' }}>•</span>
+          <span>Cloud collaboration</span>
         </div>
       </div>
 
