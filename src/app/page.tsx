@@ -14,7 +14,7 @@ export default function Home() {
           Step Beyond the Ordinary
         </h1>
         <div 
-          className="subtitle-tags rounded-full backdrop-blur-md border border-white/30 flex items-center space-x-3 text-base" 
+          className="subtitle-tags rounded-full backdrop-blur-md border border-white/30 flex items-center text-base" 
           style={{ 
             color: '#CBD5E1',
             paddingLeft: '1rem',
@@ -24,15 +24,16 @@ export default function Home() {
             background: 'rgba(255, 255, 255, 0.15)',
             backdropFilter: 'blur(20px)',
             WebkitBackdropFilter: 'blur(20px)',
-            boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.2)'
+            boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.2)',
+            gap: '1.5rem'
           }}
         >
           <span>Portal</span>
-          <span style={{ color: '#94A3B8' }}>•</span>
+          <span style={{ color: '#CBD5E1', fontSize: '1.2em' }}>•</span>
           <span>Flow State</span>
-          <span style={{ color: '#94A3B8' }}>•</span>
+          <span style={{ color: '#CBD5E1', fontSize: '1.2em' }}>•</span>
           <span>Limitless Canvas</span>
-          <span style={{ color: '#94A3B8' }}>•</span>
+          <span style={{ color: '#CBD5E1', fontSize: '1.2em' }}>•</span>
           <span>Cloud collaboration</span>
         </div>
       </div>

@@ -6,7 +6,7 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD_KrwxHAOzZPAFwhhiZ3WTE7c0QslkhMw",
+  apiKey: "AIzaSyD_KrwxHAOzZPAFwhhiZ3WTE7cOQslkhMw",
   authDomain: "riskgrid-9f3f7.firebaseapp.com",
   projectId: "riskgrid-9f3f7",
   storageBucket: "riskgrid-9f3f7.firebasestorage.app",
