@@ -13,7 +13,20 @@ export default function Home() {
         <h1 className="main-title text-6xl mb-6" style={{ color: '#CBD5E1' }}>
           Step Beyond the Ordinary
         </h1>
-        <div className="subtitle-tags px-10 py-3 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center space-x-3 text-base" style={{ color: '#CBD5E1' }}>
+        <div 
+          className="subtitle-tags rounded-full backdrop-blur-md border border-white/30 flex items-center space-x-3 text-base" 
+          style={{ 
+            color: '#CBD5E1',
+            paddingLeft: '1rem',
+            paddingRight: '1rem',
+            paddingTop: '0.65rem',
+            paddingBottom: '0.65rem',
+            background: 'rgba(255, 255, 255, 0.15)',
+            backdropFilter: 'blur(20px)',
+            WebkitBackdropFilter: 'blur(20px)',
+            boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.2)'
+          }}
+        >
           <span>Portal</span>
           <span style={{ color: '#94A3B8' }}>•</span>
           <span>Flow State</span>
